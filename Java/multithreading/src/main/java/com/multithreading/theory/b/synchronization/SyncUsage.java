@@ -1,4 +1,4 @@
-package com.multithreading.theory.synchronization;
+package com.multithreading.theory.b.synchronization;
 
 public class SyncUsage {
     public static void usingCommonObject(){

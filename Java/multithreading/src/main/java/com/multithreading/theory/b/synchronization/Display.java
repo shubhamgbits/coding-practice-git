@@ -1,4 +1,4 @@
-package com.multithreading.theory.synchronization;
+package com.multithreading.theory.b.synchronization;
 
 import lombok.extern.slf4j.Slf4j;
 

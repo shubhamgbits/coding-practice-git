@@ -1,4 +1,4 @@
-package com.multithreading.theory.basic;
+package com.multithreading.theory.a.basic;
 
 public class ByExtending extends Thread{
     @Override

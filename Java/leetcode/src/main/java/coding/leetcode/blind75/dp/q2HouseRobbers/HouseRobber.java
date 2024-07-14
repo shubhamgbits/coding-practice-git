@@ -26,7 +26,7 @@ public class HouseRobber {
 
         int money2 = 0;
         for(int i =1; i<length; i=i+2){
-            money2 += money2[i];
+            money2 += nums[i];
         }
         return Math.max(money2,money);
     }

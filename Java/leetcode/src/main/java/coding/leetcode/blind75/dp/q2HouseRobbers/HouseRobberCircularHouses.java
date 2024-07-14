@@ -21,6 +21,6 @@ public class HouseRobberCircularHouses {
             first = temp;
         }
 
-        return temp;
+        return second;
     }
 }

@@ -1,8 +1,9 @@
 package com.multithreading;
 
-import com.multithreading.problems.q1.FileWritingTheory;
-import com.multithreading.problems.q1.Q1Usage;
+import com.multithreading.theory.d.daemon.Daemon;
+import com.multithreading.theory.e.threadgroup.ThreadGroupUsage;
 import lombok.extern.slf4j.Slf4j;
+import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 
 @SpringBootApplication
@@ -14,11 +15,16 @@ public class MultithreadingApplication {
 //		SyncUsage.usingCommonObject();
 //		SyncUsage.usingDiffObject();
 //		CommunicationUsage.print();
-//		SpringApplication.run(DesignpatternApplication.class, args);
+
 //		FileHandlingTheory.useScanner();
 //		FileHandlingTheory.usePath();
-		Q1Usage.execute();
+//		Q1Usage.execute();
 //		FileWritingTheory.usingBufferedReader();
+//		Daemon.execute();
+		ThreadGroupUsage.execute();
+
+
+		SpringApplication.run(MultithreadingApplication.class, args);
 	}
 
 }
