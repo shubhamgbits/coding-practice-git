@@ -14,9 +14,10 @@ public class HouseRobberCircularHouses {
     public static int helper(int[] nums){
         int first = 0;
         int second = nums[0];
+        int temp = second;
 
         for(int i=1; i<nums.length;i++){
-            int temp = second;
+            temp = second;
             second = Math.max(second, first+nums[i]);
             first = temp;
         }

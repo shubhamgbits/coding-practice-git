@@ -23,7 +23,6 @@ public class LongestSubstringWithoutRepeatingCharacters {
 
         return max_len;
 
-        Deque<String> queue = new ArrayDeque<>();
-        queue.o
+//        Deque<String> queue = new ArrayDeque<>();
     }
 }
